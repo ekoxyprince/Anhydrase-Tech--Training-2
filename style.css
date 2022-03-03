@@ -1,0 +1,62 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    
+    .sub-heading {
+        text-align: center;
+        color: var(--green);
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+    
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #fff;
+        padding: 0.5rem 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1000;
+        box-sizing: border-box;
+        box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    }
+    
+    .header .nav-image {
+        width: 14rem;
+        height: 4rem;
+    }
+    
+    .header .navbar {
+        display: flex;
+        position: relative;
+        top: 0;
+        left: -3rem;
+    }
+    
+    .header .navbar a {
+        text-decoration: none;
+        list-style: none;
+        margin-left: 1.5rem;
+    }
+    
+    .header .login-link {
+        list-style: none;
+        padding: .5rem 1rem;
+        text-decoration: none;
+        border: 1px solid;
+    }
+    
+    .header .login-link:hover {
+        background: yellowgreen;
+        color: red;
+    }
+    
+    .Home {
+        margin-top: 5rem;
+    }
+    /* login form style */
